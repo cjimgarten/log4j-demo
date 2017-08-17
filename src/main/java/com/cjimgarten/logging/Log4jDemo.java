@@ -1,14 +1,14 @@
-package com.cjimgarten.logger;
+package com.cjimgarten.logging;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
- * LoggerDemo
+ * Created by chris on 8/16/17.
  */
-public class LoggerDemo {
+public class Log4jDemo {
 
-    private static final Logger logger = LogManager.getLogger(LoggerDemo.class);
+    private static final Logger logger = LogManager.getLogger(Log4jDemo.class);
 
     public void logLevels() {
 

@@ -1,15 +1,15 @@
-package com.cjimgarten.logger;
+package com.cjimgarten.logging;
 
 import org.junit.Test;
 
 /**
  * Created by chris on 8/16/17.
  */
-public class LoggerDemoTests {
+public class Log4jDemoTests {
 
     @Test
     public void testLogLevels() {
-        LoggerDemo ld = new LoggerDemo();
+        Log4jDemo ld = new Log4jDemo();
         ld.logLevels();
     }
 }
