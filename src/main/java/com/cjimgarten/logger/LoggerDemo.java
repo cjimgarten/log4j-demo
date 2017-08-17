@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
- * LoggerDemo
+ * Created by chris on 8/16/17.
  */
 public class LoggerDemo {
 
