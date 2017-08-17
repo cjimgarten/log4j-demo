@@ -8,16 +8,16 @@ import org.apache.logging.log4j.Logger;
  */
 public class Log4jDemo {
 
-    private static final Logger logger = LogManager.getLogger(Log4jDemo.class);
+    private static final Logger LOGGER = LogManager.getLogger(Log4jDemo.class);
 
     public void logLevels() {
 
         // log levels in order of severity
-        logger.trace("Trace");
-        logger.debug("Debug");
-        logger.info("Info");
-        logger.warn("Warn");
-        logger.error("Error");
-        logger.fatal("Fatal");
+        LOGGER.trace("Trace");
+        LOGGER.debug("Debug");
+        LOGGER.info("Info");
+        LOGGER.warn("Warn");
+        LOGGER.error("Error");
+        LOGGER.fatal("Fatal");
     }
 }
